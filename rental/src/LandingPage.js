@@ -1,6 +1,3 @@
-// import livingroom from './assets/livingroom.jpeg';
-// import './App.css';
-
 const LandingPage = () => {
   return (
     <section className='landing-page'>

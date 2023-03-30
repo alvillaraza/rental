@@ -22,9 +22,37 @@
 .amenities {
   background-color: #f5f4f3;
 }
-.amenities .amenities-list {
-  display: flex;
+.amenities .amenities-content {
+  padding: 10%;
 }
-.amenities .photo {
+.amenities .amenities-desc {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0;
+}
+.amenities .amenities-desc p {
+  width: 55%;
+}
+.amenities .amenities-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+}
+.amenities .amenities-wrapper .amenities-list {
+  text-align: center;
+}
+.amenities .amenities-wrapper .photo {
   width: 30%;
+}
+.contact-us {
+  padding: 80px;
+  background: url('assets/kitchen.jpeg') no-repeat center center fixed;
+  max-width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.contact-us .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
