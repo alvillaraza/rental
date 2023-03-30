@@ -27,7 +27,7 @@
 }
 .amenities .amenities-desc {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-basis: 0;
 }
 .amenities .amenities-desc p {
@@ -37,12 +37,18 @@
   display: flex;
   flex-wrap: wrap;
   text-transform: capitalize;
+  padding-block: 6%;
 }
 .amenities .amenities-wrapper .amenities-list {
   text-align: center;
+  flex: 1 1 calc(33.33% - 20px);
+  margin-block: 10px;
 }
 .amenities .amenities-wrapper .photo {
-  width: 30%;
+  height: auto;
+  max-height: 350px;
+  max-width: 350px;
+  width: auto;
 }
 .contact-us {
   padding: 80px;
