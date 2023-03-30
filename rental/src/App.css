@@ -19,9 +19,12 @@
 .about-us img {
   width: 50%;
 }
+.amenities {
+  background-color: #f5f4f3;
+}
 .amenities .amenities-list {
   display: flex;
 }
 .amenities .photo {
-  width: 20%;
+  width: 30%;
 }
