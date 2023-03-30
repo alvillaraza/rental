@@ -19,3 +19,9 @@
 .about-us img {
   width: 50%;
 }
+.amenities .amenities-list {
+  display: flex;
+}
+.amenities .photo {
+  width: 20%;
+}
