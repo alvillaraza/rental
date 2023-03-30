@@ -1,12 +1,12 @@
 // import livingroom from './assets/livingroom.jpeg';
-import './App.css';
+// import './App.css';
 
 const LandingPage = () => {
   return (
     <section className='landing-page'>
-      LandingPage
-      <p>oahefwohao;w</p>
-      {/* <img src={livingroom} alt='living room' /> */}
+      Suite Dreams
+      <h1>Experience the comfort of home away from home.</h1>
+      <button>Contact Us</button>
     </section>
   );
 };
