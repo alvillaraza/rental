@@ -1,3 +1,13 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.company-name {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
 .landing-page {
   background: url('assets/livingroom.jpeg') no-repeat center center fixed;
   max-width: 100%;
@@ -82,7 +92,12 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-}
-.contact-us .contact-info p {
   font-size: 25px;
+}
+.contact-us .contact-info a {
+  text-decoration: none;
+  color: black;
+}
+.contact-us .contact-info a:hover {
+  text-decoration: underline;
 }

@@ -1,3 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: 500;
+    letter-spacing: 1px;
+}
+
 .landing-page {
   background: url('./assets/livingroom.jpeg') no-repeat center center fixed;
   max-width: 100%;
@@ -9,6 +21,7 @@
     font-size: 70px;
     width: 15ch;
   }
+
 
   button {
     background-color: white;
@@ -55,8 +68,8 @@
     flex-basis: 0;
 
     h1 {
-    font-size: 40px;
-  }
+      font-size: 40px;
+    }
 
     p {
       width: 55%;
@@ -96,9 +109,15 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
-    p {
     font-size: 25px;
-  }
+
+    a {
+      text-decoration: none;
+      color: black
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
