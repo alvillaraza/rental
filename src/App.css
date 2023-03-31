@@ -1,4 +1,5 @@
 .logo {
+  padding: 80px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -8,12 +9,17 @@
   font-weight: 500;
   letter-spacing: 1px;
 }
+.svg-logo {
+  fill: white;
+}
 .landing-page {
   background: url('assets/livingroom.jpeg') no-repeat center center fixed;
   max-width: 100%;
   height: 100vh;
   background-size: cover;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .landing-page h1 {
   font-size: 70px;
@@ -30,6 +36,12 @@
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.landing-page .copy-wrapper {
+  padding: 0 80px 80px 80px;
+  margin-block: 75px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
 }
 .about-us {
   padding: 50px;
@@ -68,12 +80,12 @@
   flex-wrap: wrap;
   text-transform: capitalize;
   padding-block: 6%;
+  gap: 10px;
 }
 .amenities .amenities-wrapper .amenities-list {
   font-weight: bold;
   text-align: center;
   flex: 1 1 calc(33.33% - 20px);
-  gap: 10px;
   margin-block: 10px;
 }
 .amenities .amenities-wrapper .photo {
@@ -81,23 +93,33 @@
   height: 300px;
   object-fit: cover;
 }
+.amenities .amenities-wrapper p {
+  margin: 5px;
+}
 .contact-us {
-  padding: 80px;
   background: url('assets/kitchen.jpeg') no-repeat center center fixed;
   max-width: 100%;
   height: 100vh;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .contact-us .contact-info {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
 }
 .contact-us .contact-info a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 .contact-us .contact-info a:hover {
   text-decoration: underline;
+}
+.contact-us .contact-info .svg {
+  fill: white;
 }

@@ -1,4 +1,5 @@
 .logo {
+  padding: 80px;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -7,7 +8,11 @@
 .company-name {
   font-size: 16px;
   font-weight: 500;
-    letter-spacing: 1px;
+  letter-spacing: 1px;
+}
+
+.svg-logo {
+  fill: white;
 }
 
 .landing-page {
@@ -15,13 +20,14 @@
   max-width: 100%;
   height: 100vh;
   background-size: cover;
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   h1 {
     font-size: 70px;
     width: 15ch;
   }
-
 
   button {
     background-color: white;
@@ -34,6 +40,13 @@
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
+  }
+
+  .copy-wrapper {
+    padding: 0 80px 80px 80px;
+    margin-block: 75px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
   }
 }
 
@@ -81,12 +94,12 @@
     flex-wrap: wrap;
     text-transform: capitalize;
     padding-block: 6%;
+    gap: 10px;
 
     .amenities-list {
       font-weight: bold;
       text-align: center;
       flex: 1 1 calc(33.33% - 20px);
-      gap: 10px;
       margin-block: 10px;
     }
 
@@ -95,29 +108,41 @@
       height: 300px;
       object-fit: cover;
     }
+
+    p {
+      margin: 5px;
+    }
   }
 }
 
 .contact-us {
-  padding: 80px;
   background: url('./assets/kitchen.jpeg') no-repeat center center fixed;
   max-width: 100%;
   height: 100vh;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 
   .contact-info {
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
 
     a {
       text-decoration: none;
-      color: black
+      color: white
     }
 
     a:hover {
       text-decoration: underline;
+    }
+
+    .svg {
+      fill: white;
     }
   }
 }
