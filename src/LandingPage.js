@@ -7,7 +7,7 @@ const LandingPage = () => {
       </div>
       <div className='copy-wrapper'>
       <h1>Experience the comfort of home away from home.</h1>
-      <a href='#contact-us'><button>Contact Us</button></a>
+      <a href='#contact-us'><button className='button-white'>Contact Us</button></a>
       </div>
     </section>
   );

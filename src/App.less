@@ -18,15 +18,49 @@
 h1,
 h2 {
   font-family: 'Philosopher', sans-serif;
+  font-size: 50px;
 }
 
-p {
+p, h4 {
   font-family: 'Mulish', sans-serif;
+  font-size: 30px;
 }
 
 img {
-border-radius: 20px;
+  border-radius: 20px;
 }
+
+button {
+  border: none;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.button-white {
+  background-color: white;
+  color: black;
+}
+
+.button-black {
+  background-color: black;
+  color: white;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+// ******** Landing Page *********
+// ******** Landing Page *********
+// ******** Landing Page *********
+// ******** Landing Page *********
 
 .landing-page {
   background: url('./assets/livingroom.jpeg') no-repeat center center fixed;
@@ -42,20 +76,6 @@ border-radius: 20px;
     width: 15ch;
   }
 
-  button {
-    background-color: white;
-    border: none;
-    color: black;
-    padding: 15px 70px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-    border-radius: 10px;
-  }
-
   .copy-wrapper {
     padding: 0 80px 80px 80px;
     margin-block: 75px;
@@ -66,8 +86,6 @@ border-radius: 20px;
 
 .about-us {
   padding: 50px;
-  background-color: black;
-  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -92,6 +110,11 @@ border-radius: 20px;
   }
 }
 
+// ****** Amenities ******
+// ****** Amenities ******
+// ****** Amenities ******
+// ****** Amenities ******
+
 .amenities {
   background-color: #f5f4f3;
 
@@ -110,7 +133,6 @@ border-radius: 20px;
 
     p {
       font-size: 30px;
-
       width: 55%;
     }
   }
@@ -141,6 +163,41 @@ border-radius: 20px;
   }
 }
 
+// ****** Tours ******
+// ****** Tours ******
+// ****** Tours ******
+// ****** Tours ******
+
+.tours {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// ***** Partner With Us ******
+// ***** Partner With Us ******
+// ***** Partner With Us ******
+
+.partner {
+  background-color: #f5f4f3;
+  color: black;
+  padding: 10%;
+
+  .partner-content {
+    p, h4 {
+      font-size: 16px;
+    }
+  }
+}
+
+// ****** Contact Us ******
+// ****** Contact Us ******
+// ****** Contact Us ******
+// ****** Contact Us ******
+// ****** Contact Us ******
+
 .contact-us {
   background: url('./assets/kitchen.jpeg') no-repeat center center fixed;
   max-width: 100%;
@@ -160,7 +217,7 @@ border-radius: 20px;
 
     a {
       text-decoration: none;
-      color: white
+      color: white;
     }
 
     a:hover {

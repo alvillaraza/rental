@@ -4,6 +4,8 @@ import LandingPage from './LandingPage';
 import AboutUs from './components/AboutUs';
 import Amenities from './components/Amenities';
 import ContactUs from './components/ContactUs';
+import Tours from './components/Tours';
+import PartnerWithUs from './components/PartnerWithUs';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <LandingPage />
       <AboutUs />
       <Amenities />
+      <Tours />
+      <PartnerWithUs />
       <ContactUs />
     </div>
   );

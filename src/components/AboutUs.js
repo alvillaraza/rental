@@ -2,7 +2,7 @@ import about from '../assets/about Large.jpeg';
 
 const AboutUs = () => {
   return (
-    <section className='about-us'>
+    <section className='about-us black-bg'>
       <div className='desc'>
         <p className='intro'>
           We offer a variety of luxurious properties to make your stay

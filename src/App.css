@@ -15,12 +15,38 @@
 h1,
 h2 {
   font-family: 'Philosopher', sans-serif;
+  font-size: 50px;
 }
-p {
+p,
+h4 {
   font-family: 'Mulish', sans-serif;
+  font-size: 30px;
 }
 img {
   border-radius: 20px;
+}
+button {
+  border: none;
+  padding: 15px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+.button-white {
+  background-color: white;
+  color: black;
+}
+.button-black {
+  background-color: black;
+  color: white;
+}
+.black-bg {
+  background-color: black;
+  color: white;
 }
 .landing-page {
   background: url('assets/livingroom.jpeg') no-repeat center center fixed;
@@ -35,19 +61,6 @@ img {
   font-size: 70px;
   width: 15ch;
 }
-.landing-page button {
-  background-color: white;
-  border: none;
-  color: black;
-  padding: 15px 70px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 10px;
-}
 .landing-page .copy-wrapper {
   padding: 0 80px 80px 80px;
   margin-block: 75px;
@@ -56,8 +69,6 @@ img {
 }
 .about-us {
   padding: 50px;
-  background-color: black;
-  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -115,6 +126,22 @@ img {
 }
 .amenities .amenities-wrapper p {
   margin: 5px;
+}
+.tours {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.partner {
+  background-color: #f5f4f3;
+  color: black;
+  padding: 10%;
+}
+.partner .partner-content p,
+.partner .partner-content h4 {
+  font-size: 16px;
 }
 .contact-us {
   background: url('assets/kitchen.jpeg') no-repeat center center fixed;
