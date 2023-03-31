@@ -12,6 +12,13 @@
 .svg-logo {
   fill: white;
 }
+h1,
+h2 {
+  font-family: 'Philosopher', sans-serif;
+}
+p {
+  font-family: 'Mulish', sans-serif;
+}
 .landing-page {
   background: url('assets/livingroom.jpeg') no-repeat center center fixed;
   max-width: 100%;
@@ -54,6 +61,11 @@
 .about-us .desc {
   padding-inline: 50px;
   align-items: center;
+}
+.about-us .desc .intro {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
 }
 .about-us img {
   width: 50%;

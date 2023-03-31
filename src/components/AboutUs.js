@@ -4,10 +4,10 @@ const AboutUs = () => {
   return (
     <section className='about-us'>
       <div className='desc'>
-        <h1>
+        <p className='intro'>
           We offer a variety of luxurious properties to make your stay
           comfortable and unforgettable.
-        </h1>
+        </p>
         <p>
           Each of our homes is carefully curated to provide you with a unique
           experience.
