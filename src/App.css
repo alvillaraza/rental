@@ -47,6 +47,9 @@
   justify-content: space-around;
   flex-basis: 0;
 }
+.amenities .amenities-desc h1 {
+  font-size: 40px;
+}
 .amenities .amenities-desc p {
   width: 55%;
 }
@@ -64,8 +67,8 @@
   margin-block: 10px;
 }
 .amenities .amenities-wrapper .photo {
-  width: 350px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
 }
 .contact-us {
@@ -79,4 +82,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.contact-us .contact-info p {
+  font-size: 25px;
 }
