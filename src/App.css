@@ -45,10 +45,9 @@
   margin-block: 10px;
 }
 .amenities .amenities-wrapper .photo {
-  height: auto;
-  max-height: 350px;
-  max-width: 350px;
-  width: auto;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
 }
 .contact-us {
   padding: 80px;
