@@ -13,7 +13,6 @@ const Amenities = () => {
             stay.
           </p>
         </div>
-        {/* <div className='amenities-wrapper'> */}
         <div className='amenities-wrapper'>
           {amenitiesData.map((amenity) => (
             <div className='amenities-list' key={amenity.title}>
@@ -23,7 +22,6 @@ const Amenities = () => {
           ))}
         </div>
       </div>
-      {/* </div> */}
     </section>
   );
 };
