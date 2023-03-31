@@ -21,7 +21,8 @@ h2 {
   font-size: 50px;
 }
 
-p, h4 {
+p,
+h4 {
   font-family: 'Mulish', sans-serif;
   font-size: 30px;
 }
@@ -185,9 +186,44 @@ button {
   color: black;
   padding: 10%;
 
+  h1 {
+    margin-block-start: unset;
+  }
   .partner-content {
-    p, h4 {
-      font-size: 16px;
+    margin-bottom: 105px;
+    p,
+    h4 {
+      font-size: 20px;
+    }
+    .partner-blurb {
+      margin-block: 45px;
+    }
+    .partner-button {
+      text-align: right;
+    }
+  }
+
+  img {
+    width: 75%;
+  }
+
+  .faq-wrapper {
+    padding: 53px;
+    background-color: #e1dedc;
+    border-radius: 20px;
+
+    .faqs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      gap: 186px;
+
+      h4 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 20px;
+      }
     }
   }
 }

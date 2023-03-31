@@ -139,9 +139,41 @@ button {
   color: black;
   padding: 10%;
 }
+.partner h1 {
+  margin-block-start: unset;
+}
+.partner .partner-content {
+  margin-bottom: 105px;
+}
 .partner .partner-content p,
 .partner .partner-content h4 {
-  font-size: 16px;
+  font-size: 20px;
+}
+.partner .partner-content .partner-blurb {
+  margin-block: 45px;
+}
+.partner .partner-content .partner-button {
+  text-align: right;
+}
+.partner img {
+  width: 75%;
+}
+.partner .faq-wrapper {
+  padding: 53px;
+  background-color: #e1dedc;
+  border-radius: 20px;
+}
+.partner .faq-wrapper .faqs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  gap: 186px;
+}
+.partner .faq-wrapper .faqs h4 {
+  font-size: 20px;
+}
+.partner .faq-wrapper .faqs p {
+  font-size: 20px;
 }
 .contact-us {
   background: url('assets/kitchen.jpeg') no-repeat center center fixed;
