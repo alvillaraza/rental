@@ -19,8 +19,8 @@ export const amenitiesData = [
   // { photo: toiletries, title: 'toiletries' },
   { photo: workspace, title: 'Dedicated Workspace' },
   { photo: toiletries2, title: 'Toiletries' },
-  { photo: washer, title: 'In-unit Washer and Dryer' },
   { photo: cleaning, title: 'Professional Cleaning' },
+  { photo: washer, title: 'In-unit Washer and Dryer' },
   // { photo: stocked_kitchen, title: 'stocked_kitchen' },
   { photo: firstaid, title: 'Safety Features' },
 

@@ -27,8 +27,8 @@ const Tours = () => {
             <p>
               ```Suite Dreams``` is available 24/7 via text or phone call to
               answer any questions, concerns, or accommodations. So if you want
-              a stress-free and profitable way to turn your property into a
-              source of passive income, partner with us today!
+              a stress-free and profitable way to turn your home into a source
+              of passive income, partner with us today!
             </p>
           </div>
           <button className='partner-button button-black'>
@@ -36,43 +36,45 @@ const Tours = () => {
           </button>
         </div>
       </div>
-      <img src={bedroom} alt='bedroom' />
-      <div className='faq-wrapper'>
-        <h1 className='faq-title'>FAQs</h1>
-        <div className='faqs'>
-          <div>
-            <h4>Why should I allow airbnb arbitrage on my property?</h4>
-            <p>
-              Getting a 5-star review is our priority. We have a stake on
-              keeping your house in top-notch, high-quality condition more than
-              a long-term tenant would! The house is professionally cleaned and
-              inspected after every short-term stay, ensuring that your property
-              is in good hands. Plus, we run a lucrative business, so you are
-              guaranteed your payment every month!
-            </p>
-            {/* </div>
+      <div className='faq-photo-section'>
+        <img src={bedroom} alt='bedroom' />
+        <div className='faq-wrapper'>
+          <h1 className='faq-title'>FAQs</h1>
+          <div className='faqs'>
+            <div>
+              <h4>Why should I allow airbnb arbitrage on my property?</h4>
+              <p>
+                Getting a 5-star review is our priority. We have a stake on
+                keeping your house in top-notch, high-quality condition more
+                than a long-term tenant would! The house is professionally
+                cleaned and inspected after every short-term stay, ensuring that
+                your property is in good hands. Plus, we run a lucrative
+                business, so you are guaranteed your payment every month!
+              </p>
+              {/* </div>
           <div> */}
-            <h4>
-              Who are ```Suite Dreams``` guests, and how long are their typical
-              stays?
-            </h4>
-            <p>
-              ```Suite Dreams``` guests include those traveling for leisure,
-              business, or corporate stays. Our short-term stays average to
-              about three nights.
-            </p>
-          </div>
-          <div>
-            <h4>How does ```Suite Dreams``` screen their guests?</h4>
-            <p>We use Autohost blah blah blah</p>
-            {/* </div>
+              <h4>
+                Who are ```Suite Dreams``` guests, and how long are their
+                typical stays?
+              </h4>
+              <p>
+                ```Suite Dreams``` guests include those traveling for leisure,
+                business, or corporate stays. Our short-term stays average to
+                about three nights.
+              </p>
+            </div>
+            <div>
+              <h4>How does ```Suite Dreams``` screen their guests?</h4>
+              <p>We use Autohost blah blah blah</p>
+              {/* </div>
           <div> */}
-            <h4>Does ```Suite Dreams``` have a cleaning team?</h4>
-            <p>
-              After each stay, our professional cleaning team will inspect and
-              clean each unit. If a guest stays for an extended period, we clean
-              the property weekly upon request.
-            </p>
+              <h4>Does ```Suite Dreams``` have a cleaning team?</h4>
+              <p>
+                After each stay, our professional cleaning team will inspect and
+                clean each unit. If a guest stays for an extended period, we
+                clean the property weekly upon request.
+              </p>
+            </div>
           </div>
         </div>
       </div>
