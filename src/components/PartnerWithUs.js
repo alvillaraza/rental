@@ -25,7 +25,7 @@ const Tours = () => {
               compliant with all rules and regulations.
             </p>
             <p>
-              ```Suite Dreams``` is available 24/7 via text or phone call to
+              ```Suite Dreams``` is available via text or phone call to
               answer any questions, concerns, or accommodations. So if you want
               a stress-free and profitable way to turn your home into a source
               of passive income, partner with us today!
