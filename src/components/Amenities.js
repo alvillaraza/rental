@@ -9,8 +9,7 @@ const Amenities = () => {
           <p>
             Our homes feature modern and stylish furnishings, comfortable
             bedding, and high-end appliances. We pride ourselves on providing
-            exceptional service and ensuring that our guests have a memorable
-            stay.
+            exceptional service and ensuring that our guests can make lasting memories during their retreat.
           </p>
         </div>
         <div className='amenities-wrapper'>

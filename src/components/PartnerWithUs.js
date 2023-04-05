@@ -17,7 +17,7 @@ const Tours = () => {
             </p>
             <p>
               It's also about having peace of mind knowing that your property is
-              in good hands. We will take care of everything, from listing your
+              in good hands. We take care of everything, from listing your
               property, managing bookings, and guest communication, to cleaning
               and maintenance. We use a rigorous screening process to ensure
               that only the best guests stay in your property, and we take care

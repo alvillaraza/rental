@@ -15,7 +15,7 @@ const AboutUs = () => {
         <p>
           Whether you're traveling for business or pleasure, our homes offer a
           peaceful retreat where you can relax and unwind, so come and
-          experience the luxury and comfort of our short-term rentals!
+          experience luxury and comfort on your stays!
         </p>
       </div>
       <div className='photo'>
