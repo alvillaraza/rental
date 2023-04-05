@@ -42,7 +42,7 @@ const Tours = () => {
           <h1 className='faq-title'>FAQs</h1>
           <div className='faqs'>
             <div>
-              <h4>Why should I allow airbnb arbitrage on my property?</h4>
+              <h4>Why should I do airbnb arbitrage on my property?</h4>
               <p>
                 Getting a 5-star review is our priority. We have a stake on
                 keeping your house in top-notch, high-quality condition more

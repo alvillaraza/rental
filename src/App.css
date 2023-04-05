@@ -20,10 +20,11 @@ h2 {
 p,
 h4 {
   font-family: 'Mulish', sans-serif;
-  font-size: 30px;
+  font-size: 23px;
 }
 img {
   border-radius: 20px;
+  width: 100%;
 }
 button {
   border: none;
@@ -51,14 +52,13 @@ button {
 .landing-page {
   background: url('assets/livingroom.jpeg') no-repeat center center fixed;
   max-width: 100%;
-  height: 100vh;
   background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 .landing-page h1 {
-  font-size: 70px;
+  font-size: 55px;
   width: 15ch;
 }
 .landing-page .copy-wrapper {
@@ -72,21 +72,25 @@ button {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  gap: 6%;
 }
 .about-us .desc {
   padding-inline: 50px;
   align-items: center;
+  flex-grow: 1;
+  flex-basis: 60%;
 }
 .about-us .desc p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .about-us .desc .intro {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 40px;
 }
-.about-us img {
-  width: 50%;
+.about-us .photo {
+  flex-grow: 1;
+  flex-basis: 40%;
 }
 .amenities {
   background-color: #f5f4f3;
@@ -100,10 +104,10 @@ button {
   flex-basis: 0;
 }
 .amenities .amenities-desc h1 {
-  font-size: 50px;
+  font-size: 40px;
 }
 .amenities .amenities-desc p {
-  font-size: 30px;
+  font-size: 23px;
   width: 55%;
 }
 .amenities .amenities-wrapper {
@@ -120,8 +124,8 @@ button {
   margin-block: 10px;
 }
 .amenities .amenities-wrapper .photo {
-  width: 300px;
-  height: 400px;
+  width: 200px;
+  height: 300px;
   object-fit: cover;
 }
 .amenities .amenities-wrapper p {
@@ -148,7 +152,7 @@ button {
 }
 .partner .partner-content p,
 .partner .partner-content h4 {
-  font-size: 25px;
+  font-size: 23px;
 }
 .partner .partner-content .partner-blurb {
   margin-block: 45px;
@@ -163,7 +167,6 @@ button {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  height: 1000px;
 }
 .partner .faq-photo-section img {
   grid-column-start: 1;
@@ -191,7 +194,7 @@ button {
 }
 .partner .faq-photo-section .faq-wrapper .faqs h4,
 .partner .faq-photo-section .faq-wrapper .faqs p {
-  font-size: 25px;
+  font-size: 20px;
 }
 .contact-us {
   background: url('assets/kitchen.jpeg') no-repeat center center fixed;
